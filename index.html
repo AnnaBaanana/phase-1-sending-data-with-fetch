@@ -3,13 +3,28 @@
 
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JavaScript Lab</title>
+    <script src="index.js"></script>
   </head>
 
   <body>
-    <script src="index.js"></script>
+    <div>
+      <form id="newid">
+        <h2>Register</h2>
+        <label for="name">Your Name</label>
+        <input type="text" name="name" id ="name">
+        <label for="email">Your Email</label>
+        <input type="text" name="Email" id="email"><br>
+        <input type="submit" value="Submit Info" id="submit">
+      </form>
+     </div>
+     <div>
+       <form id="data">
+         <h2>Registered Users</h2>
+         <ul id="users">
+         </ul>
+       </form>
+    </div>
   </body>
 
 </html>
